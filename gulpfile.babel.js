@@ -38,7 +38,7 @@ const routes = {
 const clean = () => del(["build", ".publish"]);
 const pug = () => gulp.src(routes.pug.src).pipe(gpug()).pipe(gulp.dest(routes.pug.dest));
 const webServer = () => gulp.src("build").pipe(gws({ livereload: true, open: true }));
-const img = () => gulp.src(routes.img.src).pipe(gimg()).pipe(gulp.dest(routes.img.dest));
+const img = () => gulp.src(routes.img.src).pipe(gulp.dest(routes.img.dest));
 const scss = () =>
 	gulp
 		.src(routes.scss.src)
