@@ -52,7 +52,9 @@ const js = () =>
 		.pipe(
 			bro({
 				transform: [
-					babelify.configure({ presets: ["@babel/preset-env"] }),
+					babelify.configure({
+						presets: [["@babel/preset-env", { targets: { chrome: "55" } }]],
+					}),
 					["uglifyify", { global: true }],
 				],
 			})
