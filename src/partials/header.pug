@@ -1,0 +1,26 @@
+header.header
+    img.header__logo(src="img/logo.png" alt="Logo")
+    form.search
+        input.search__field(type="text" placeholder="Search over 1,000,000 recipes...")
+        button.btn.search__btn
+            svg.search__icon
+                use(href="img/icons.svg#icon-magnifying-glass")
+            span Search
+    .likes
+        .likes__field
+            svg.likes__icon
+                use(href="img/icons.svg#icon-heart")
+        .likes__panel
+            ul.likes__list
+        //-
+            <li>
+                <a class="likes__link" href="#23456">
+                    <figure class="likes__fig">
+                        <img src="img/test-1.jpg" alt="Test">
+                    </figure>
+                    <div class="likes__data">
+                        <h4 class="likes__name">Pasta with Tomato ...</h4>
+                        <p class="likes__author">The Pioneer Woman</p>
+                    </div>
+                </a>
+            </li>
