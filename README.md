@@ -3,7 +3,7 @@
 ##### 자바스트립트로 동적인 기능을 추가했습니다.
 [recipe site][id]
 
-[id]:https://hyojip.github.io/ "Go Site"
+[id]:https://hyojip.github.io/recipe/ "Go Site"
 
 ###### 배운점:
 1. 로컬스토리지의 활용
