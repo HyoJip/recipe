@@ -28,7 +28,7 @@
 		"uglifyify": "^5.0.2"
 	},
 	"dependencies": {
-		"axios": "^0.19.2",
+		"axios": "^0.21.2",
 		"del": "^5.1.0",
 		"fractional": "^1.0.0",
 		"uniqid": "^5.2.0"
